@@ -1,3 +1,5 @@
+
+
 * {
     margin: 0;
     padding: 0;
@@ -197,4 +199,49 @@ tr{
     border: none;
     border-radius: 15px;
     /* notjinh to do with project */
+}
+
+/* Media Queries for Mobile */
+@media screen and (max-width: 768px) {
+
+    #reg_form {
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    #form_container,
+    #employees,
+    #employee_details,
+    #location_map {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    input, select, button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    label {
+        margin-left: 10px;
+        text-align: left;
+    }
+
+    #form h2 {
+        font-size: 20px;
+    }
+
+    button {
+        font-size: 16px;
+    }
+
+    table {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    #location {
+        width: 100%;
+        margin-left: 0;
+    }
 }
