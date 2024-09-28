@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="reg_form">
+        <h1>Company Directory Portal</h1>
+        <div id="form_container">
+        <h2>Employee Registration Form</h2>
+        <div id="form_page">
+            <form action="" id="form">
+                <label for="full_name"> Full Name:</label>
+                <input type="text" placeholder="Enter you full name"  id="full_name">
+
+                <label for="email">Email:</label>
+                <input type="text" placeholder="Enter your email ID"  id="email">
+
+                <label for="department">Department:</label>
+                <select name="department" id="department">
+                    <option value="IT">IT</option>
+                    <option value="HR">HR</option>
+                    <option value="Finance">Finance</option>
+                    <option value="Marketing">Marketing</option>
+                </select>
+
+                <label for="employeeid">Employee ID:</label>
+                <input type="number" name="number" id="employeeid">
+
+                <label for="profilepic">Profile Picture URL:</label>
+                <input type="url" name="profile" id="profilepic">
+
+                <button type="submit">Register Employee</button>
+            </form>
+
+        </div>
+        </div>
+        
+        <div id="employees">
+
+            <h2>Employee List</h2>
+            <div id="employee_id">
+                <div id="employee1">
+                    <span>1.</span>
+                    <span>John Doe - john@example.com</span>
+                </div><br>
+                <div id="employee2">
+                    <span>2.</span>
+                    <span>Jane Smith - jane@example.com</span>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="employee_details">
+            <h2>Employee Details</h2>
+
+            <table>
+                <thead >
+                    <th>Name</th>
+                    <th>Employee ID</th>
+                    <th>Department</th>
+                    <th>Profile Picture</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>12345</td>
+                        <td>IT</td>
+                        <td>
+                            <img src=".\images\profile.png" alt="profile">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>67890</td>
+                        <td>HR</td>
+                        <td>
+                            <img src=".\images\profile.png" alt="profile">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="location_map">
+            <h2>Company location</h2>
+            <iframe src="https://maps.app.goo.gl/ad87adSPB9AAKsaL6" id="location" frameborder="0"  allowfullscreen></iframe>
+        </div>
+    </div>
+
+</body>
+</html>
