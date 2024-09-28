@@ -38,6 +38,9 @@ h2{
     height: 630px;
     border-radius: 15px;
     background-color: #e6f3ff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
 #form{
@@ -86,8 +89,10 @@ button:hover{
     border-radius: 15px;
     background-color: #e6f3ff;
     height: 170px;
-    /* display: flex; */
+    display: flex;
     /* align-items: start; */
+    flex-wrap: nowrap;
+    flex-direction: column;
 }
 
 #employee_id{
@@ -133,6 +138,8 @@ button:hover{
     height: 330px;
     border-radius: 15px;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
 }
 
 table{
@@ -172,6 +179,12 @@ tr{
     background-color: #cacaca;
     /* margin-left: 140px;   */
 } 
+
+#location_map{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
 
 #location{
     width: 90opx;
